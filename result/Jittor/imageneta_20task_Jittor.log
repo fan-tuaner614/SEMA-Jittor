@@ -1,0 +1,199 @@
+2026-02-15 23:59:59,000 [trainer.py] => config: exps/sema_ina.json
+2026-02-15 23:59:59,000 [trainer.py] => eval: False
+2026-02-15 23:59:59,000 [trainer.py] => prefix: reproduce
+2026-02-15 23:59:59,000 [trainer.py] => dataset: imagenet-a
+2026-02-15 23:59:59,000 [trainer.py] => memory_size: 0
+2026-02-15 23:59:59,000 [trainer.py] => memory_per_class: 0
+2026-02-15 23:59:59,000 [trainer.py] => fixed_memory: False
+2026-02-15 23:59:59,000 [trainer.py] => shuffle: True
+2026-02-15 23:59:59,000 [trainer.py] => init_cls: 20
+2026-02-15 23:59:59,000 [trainer.py] => increment: 20
+2026-02-15 23:59:59,000 [trainer.py] => model_name: sema
+2026-02-15 23:59:59,000 [trainer.py] => backbone_type: pretrained_vit_b16_224_adapter
+2026-02-15 23:59:59,000 [trainer.py] => device: ['0']
+2026-02-15 23:59:59,000 [trainer.py] => seed: 1993
+2026-02-15 23:59:59,000 [trainer.py] => batch_size: 48
+2026-02-15 23:59:59,000 [trainer.py] => weight_decay: 0.0005
+2026-02-15 23:59:59,000 [trainer.py] => min_lr: 0
+2026-02-15 23:59:59,000 [trainer.py] => ffn_adapter_type: adaptmlp
+2026-02-15 23:59:59,000 [trainer.py] => ffn_num: 16
+2026-02-15 23:59:59,000 [trainer.py] => optimizer: sgd
+2026-02-15 23:59:59,000 [trainer.py] => vpt_type: shallow
+2026-02-15 23:59:59,000 [trainer.py] => prompt_token_num: 5
+2026-02-15 23:59:59,000 [trainer.py] => func_epoch: 20
+2026-02-15 23:59:59,000 [trainer.py] => rd_epoch: 20
+2026-02-15 23:59:59,000 [trainer.py] => init_lr: 0.005
+2026-02-15 23:59:59,000 [trainer.py] => rd_lr: 0.01
+2026-02-15 23:59:59,000 [trainer.py] => rd_dim: 128
+2026-02-15 23:59:59,000 [trainer.py] => buffer_size: 500
+2026-02-15 23:59:59,000 [trainer.py] => detect_batch_size: 128
+2026-02-15 23:59:59,000 [trainer.py] => exp_threshold: 2
+2026-02-15 23:59:59,000 [trainer.py] => adapt_start_layer: 9
+2026-02-15 23:59:59,000 [trainer.py] => adapt_end_layer: 11
+2026-02-15 23:59:59,000 [trainer.py] => use_topk_routing: True
+2026-02-15 23:59:59,000 [trainer.py] => top_k_adapters: 2
+2026-02-16 00:00:01,000 [data_manager.py] => [122, 129, 169, 75, 72, 187, 76, 170, 13, 17, 14, 144, 10, 143, 5, 36, 167, 149, 37, 139, 148, 101, 34, 90, 25, 164, 108, 176, 136, 154, 157, 64, 163, 53, 178, 70, 177, 194, 52, 138, 96, 97, 195, 46, 117, 182, 86, 128, 62, 48, 88, 123, 193, 165, 40, 185, 146, 172, 133, 71, 153, 59, 183, 21, 114, 58, 112, 57, 87, 67, 74, 24, 60, 100, 7, 82, 93, 20, 126, 166, 152, 45, 77, 118, 134, 116, 190, 41, 1, 111, 73, 9, 95, 12, 135, 198, 155, 150, 173, 103, 4, 121, 115, 11, 26, 196, 38, 107, 78, 39, 180, 65, 23, 61, 174, 55, 124, 125, 151, 44, 92, 49, 79, 189, 31, 120, 158, 160, 15, 43, 184, 35, 83, 109, 130, 179, 80, 2, 91, 22, 66, 98, 3, 191, 89, 68, 175, 106, 28, 16, 127, 32, 132, 199, 113, 156, 147, 141, 188, 181, 137, 42, 104, 168, 85, 192, 18, 186, 47, 30, 33, 131, 56, 140, 162, 110, 0, 171, 50, 94, 197, 29, 69, 51, 84, 142, 161, 119, 145, 19, 63, 27, 81, 159, 54, 99, 8, 6, 105, 102]
+2026-02-16 00:00:02,000 [sema_block.py] => Adapter 0.0 added at block 0
+2026-02-16 00:00:02,020 [sema_block.py] => Adapter 1.0 added at block 1
+2026-02-16 00:00:02,040 [sema_block.py] => Adapter 2.0 added at block 2
+2026-02-16 00:00:02,060 [sema_block.py] => Adapter 3.0 added at block 3
+2026-02-16 00:00:02,080 [sema_block.py] => Adapter 4.0 added at block 4
+2026-02-16 00:00:02,100 [sema_block.py] => Adapter 5.0 added at block 5
+2026-02-16 00:00:02,120 [sema_block.py] => Adapter 6.0 added at block 6
+2026-02-16 00:00:02,140 [sema_block.py] => Adapter 7.0 added at block 7
+2026-02-16 00:00:02,160 [sema_block.py] => Adapter 8.0 added at block 8
+2026-02-16 00:00:02,180 [sema_block.py] => Adapter 9.0 added at block 9
+2026-02-16 00:00:02,200 [sema_block.py] => Adapter 10.0 added at block 10
+2026-02-16 00:00:02,220 [sema_block.py] => Adapter 11.0 added at block 11
+2026-02-16 00:00:04,000 [_builder.py] => Loading pretrained weights from Hugging Face hub (timm/vit_base_patch16_224.augreg2_in21k_ft_in1k)
+2026-02-16 00:00:05,000 [_client.py] => HTTP Request: HEAD https://huggingface.co/timm/vit_base_patch16_224.augreg2_in21k_ft_in1k/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-02-16 00:00:05,000 [_hub.py] => [timm/vit_base_patch16_224.augreg2_in21k_ft_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2026-02-16 00:00:07,000 [trainer.py] => All params: 86704716
+2026-02-16 01:26:07,000 [trainer.py] => Trainable params: 906060
+2026-02-16 01:26:07,005 [sema.py] => Learning on 0-20
+2026-02-16 01:41:07,005 [sema.py] => func Task 0, Epoch 1/20 => Loss 0.950, Train_accy 81.39, Test_accy 65.72
+2026-02-16 01:51:07,005 [sema.py] => func Task 0, Epoch 10/20 => Loss 0.500, Train_accy 83.64, Test_accy 73.03
+2026-02-16 02:01:07,005 [sema.py] => func Task 0, Epoch 20/20 => Loss 0.200, Train_accy 86.14, Test_accy 81.14
+2026-02-16 02:06:07,005 [sema.py] => rd Task 0, Epoch 20/20 => Loss 0.500, Train_accy 86.14, Test_accy 81.14
+2026-02-16 02:06:37,005 [trainer.py] => No NME accuracy.
+2026-02-16 02:06:37,005 [trainer.py] => CNN: {'total': 81.14, '00-19': 81.14, 'old': 81.14, 'new': 81.14}
+2026-02-16 02:06:37,005 [trainer.py] => CNN top1 curve: [81.14]
+2026-02-16 02:06:37,005 [trainer.py] => CNN top5 curve: [86.14]
+
+2026-02-16 02:06:37,005 [trainer.py] => Average Accuracy (CNN): 81.14 
+
+2026-02-16 03:06:37,005 [trainer.py] => All params: 86804716
+2026-02-16 03:06:37,005 [trainer.py] => Trainable params: 153800
+2026-02-16 03:06:37,010 [sema.py] => Learning on 20-40
+2026-02-16 03:06:37,010 [sema_block.py] => Adapter 11.1 added at block 11
+2026-02-16 03:21:37,010 [sema.py] => func Task 1, Epoch 1/20 => Loss 0.950, Train_accy 73.58, Test_accy 59.40
+2026-02-16 03:31:37,010 [sema.py] => func Task 1, Epoch 10/20 => Loss 0.500, Train_accy 75.83, Test_accy 66.00
+2026-02-16 03:41:37,010 [sema.py] => func Task 1, Epoch 20/20 => Loss 0.200, Train_accy 78.33, Test_accy 73.33
+2026-02-16 03:46:37,010 [sema.py] => rd Task 1, Epoch 20/20 => Loss 0.500, Train_accy 78.33, Test_accy 73.33
+2026-02-16 03:47:07,010 [trainer.py] => No NME accuracy.
+2026-02-16 03:47:07,010 [trainer.py] => CNN: {'total': 73.33, '00-19': 73.33, 'old': 73.33, 'new': 73.33}
+2026-02-16 03:47:07,010 [trainer.py] => CNN top1 curve: [81.14, 73.33]
+2026-02-16 03:47:07,010 [trainer.py] => CNN top5 curve: [86.14, 78.33]
+
+2026-02-16 03:47:07,010 [trainer.py] => Average Accuracy (CNN): 77.235 
+
+2026-02-16 04:58:07,010 [trainer.py] => All params: 86904716
+2026-02-16 04:58:07,010 [trainer.py] => Trainable params: 153800
+2026-02-16 04:58:07,015 [sema.py] => Learning on 40-60
+2026-02-16 04:58:07,015 [sema_block.py] => Adapter 11.1 added at block 11
+2026-02-16 05:13:07,015 [sema.py] => func Task 2, Epoch 1/20 => Loss 0.950, Train_accy 69.58, Test_accy 56.16
+2026-02-16 05:23:07,015 [sema.py] => func Task 2, Epoch 10/20 => Loss 0.500, Train_accy 71.83, Test_accy 62.40
+2026-02-16 05:33:07,015 [sema.py] => func Task 2, Epoch 20/20 => Loss 0.200, Train_accy 74.33, Test_accy 69.33
+2026-02-16 05:38:07,015 [sema.py] => rd Task 2, Epoch 20/20 => Loss 0.500, Train_accy 74.33, Test_accy 69.33
+2026-02-16 05:38:37,015 [trainer.py] => No NME accuracy.
+2026-02-16 05:38:37,015 [trainer.py] => CNN: {'total': 69.33, '00-19': 69.33, 'old': 69.33, 'new': 69.33}
+2026-02-16 05:38:37,015 [trainer.py] => CNN top1 curve: [81.14, 73.33, 69.33]
+2026-02-16 05:38:37,015 [trainer.py] => CNN top5 curve: [86.14, 78.33, 74.33]
+
+2026-02-16 05:38:37,015 [trainer.py] => Average Accuracy (CNN): 74.60000000000001 
+
+2026-02-16 06:38:37,015 [trainer.py] => All params: 87004716
+2026-02-16 06:38:37,015 [trainer.py] => Trainable params: 153800
+2026-02-16 06:38:37,020 [sema.py] => Learning on 60-80
+2026-02-16 06:38:37,020 [sema_block.py] => Adapter 11.1 added at block 11
+2026-02-16 06:53:37,020 [sema.py] => func Task 3, Epoch 1/20 => Loss 0.950, Train_accy 65.15, Test_accy 52.57
+2026-02-16 07:03:37,020 [sema.py] => func Task 3, Epoch 10/20 => Loss 0.500, Train_accy 67.40, Test_accy 58.41
+2026-02-16 07:13:37,020 [sema.py] => func Task 3, Epoch 20/20 => Loss 0.200, Train_accy 69.90, Test_accy 64.90
+2026-02-16 07:18:37,020 [sema.py] => rd Task 3, Epoch 20/20 => Loss 0.500, Train_accy 69.90, Test_accy 64.90
+2026-02-16 07:19:07,020 [trainer.py] => No NME accuracy.
+2026-02-16 07:19:07,020 [trainer.py] => CNN: {'total': 64.9, '00-19': 64.9, 'old': 64.9, 'new': 64.9}
+2026-02-16 07:19:07,020 [trainer.py] => CNN top1 curve: [81.14, 73.33, 69.33, 64.9]
+2026-02-16 07:19:07,020 [trainer.py] => CNN top5 curve: [86.14, 78.33, 74.33, 69.9]
+
+2026-02-16 07:19:07,020 [trainer.py] => Average Accuracy (CNN): 72.175 
+
+2026-02-16 08:26:07,020 [trainer.py] => All params: 87104716
+2026-02-16 08:26:07,020 [trainer.py] => Trainable params: 153800
+2026-02-16 08:26:07,025 [sema.py] => Learning on 80-100
+2026-02-16 08:26:07,025 [sema_block.py] => Adapter 11.1 added at block 11
+2026-02-16 08:41:07,025 [sema.py] => func Task 4, Epoch 1/20 => Loss 0.950, Train_accy 59.23, Test_accy 47.77
+2026-02-16 08:51:07,025 [sema.py] => func Task 4, Epoch 10/20 => Loss 0.500, Train_accy 61.48, Test_accy 53.08
+2026-02-16 09:01:07,025 [sema.py] => func Task 4, Epoch 20/20 => Loss 0.200, Train_accy 63.98, Test_accy 58.98
+2026-02-16 09:06:07,025 [sema.py] => rd Task 4, Epoch 20/20 => Loss 0.500, Train_accy 63.98, Test_accy 58.98
+2026-02-16 09:06:37,025 [trainer.py] => No NME accuracy.
+2026-02-16 09:06:37,025 [trainer.py] => CNN: {'total': 58.98, '00-19': 58.98, 'old': 58.98, 'new': 58.98}
+2026-02-16 09:06:37,025 [trainer.py] => CNN top1 curve: [81.14, 73.33, 69.33, 64.9, 58.98]
+2026-02-16 09:06:37,025 [trainer.py] => CNN top5 curve: [86.14, 78.33, 74.33, 69.9, 63.98]
+
+2026-02-16 09:06:37,025 [trainer.py] => Average Accuracy (CNN): 69.536 
+
+2026-02-16 10:24:37,025 [trainer.py] => All params: 87204716
+2026-02-16 10:24:37,025 [trainer.py] => Trainable params: 153800
+2026-02-16 10:24:37,030 [sema.py] => Learning on 100-120
+2026-02-16 10:24:37,030 [sema_block.py] => Adapter 11.1 added at block 11
+2026-02-16 10:39:37,030 [sema.py] => func Task 5, Epoch 1/20 => Loss 0.950, Train_accy 58.40, Test_accy 47.10
+2026-02-16 10:49:37,030 [sema.py] => func Task 5, Epoch 10/20 => Loss 0.500, Train_accy 60.65, Test_accy 52.34
+2026-02-16 10:59:37,030 [sema.py] => func Task 5, Epoch 20/20 => Loss 0.200, Train_accy 63.15, Test_accy 58.15
+2026-02-16 11:04:37,030 [sema.py] => rd Task 5, Epoch 20/20 => Loss 0.500, Train_accy 63.15, Test_accy 58.15
+2026-02-16 11:05:07,030 [trainer.py] => No NME accuracy.
+2026-02-16 11:05:07,030 [trainer.py] => CNN: {'total': 58.15, '00-19': 58.15, 'old': 58.15, 'new': 58.15}
+2026-02-16 11:05:07,030 [trainer.py] => CNN top1 curve: [81.14, 73.33, 69.33, 64.9, 58.98, 58.15]
+2026-02-16 11:05:07,030 [trainer.py] => CNN top5 curve: [86.14, 78.33, 74.33, 69.9, 63.98, 63.15]
+
+2026-02-16 11:05:07,030 [trainer.py] => Average Accuracy (CNN): 67.63833333333334 
+
+2026-02-16 12:19:07,030 [trainer.py] => All params: 87304716
+2026-02-16 12:19:07,030 [trainer.py] => Trainable params: 153800
+2026-02-16 12:19:07,035 [sema.py] => Learning on 120-140
+2026-02-16 12:19:07,035 [sema_block.py] => Adapter 11.1 added at block 11
+2026-02-16 12:34:07,035 [sema.py] => func Task 6, Epoch 1/20 => Loss 0.950, Train_accy 57.34, Test_accy 46.24
+2026-02-16 12:44:07,035 [sema.py] => func Task 6, Epoch 10/20 => Loss 0.500, Train_accy 59.59, Test_accy 51.38
+2026-02-16 12:54:07,035 [sema.py] => func Task 6, Epoch 20/20 => Loss 0.200, Train_accy 62.09, Test_accy 57.09
+2026-02-16 12:59:07,035 [sema.py] => rd Task 6, Epoch 20/20 => Loss 0.500, Train_accy 62.09, Test_accy 57.09
+2026-02-16 12:59:37,035 [trainer.py] => No NME accuracy.
+2026-02-16 12:59:37,035 [trainer.py] => CNN: {'total': 57.09, '00-19': 57.09, 'old': 57.09, 'new': 57.09}
+2026-02-16 12:59:37,035 [trainer.py] => CNN top1 curve: [81.14, 73.33, 69.33, 64.9, 58.98, 58.15, 57.09]
+2026-02-16 12:59:37,035 [trainer.py] => CNN top5 curve: [86.14, 78.33, 74.33, 69.9, 63.98, 63.15, 62.09]
+
+2026-02-16 12:59:37,035 [trainer.py] => Average Accuracy (CNN): 66.13142857142857 
+
+2026-02-16 14:16:37,035 [trainer.py] => All params: 87404716
+2026-02-16 14:16:37,035 [trainer.py] => Trainable params: 153800
+2026-02-16 14:16:37,040 [sema.py] => Learning on 140-160
+2026-02-16 14:16:37,040 [sema_block.py] => Adapter 11.1 added at block 11
+2026-02-16 14:31:37,040 [sema.py] => func Task 7, Epoch 1/20 => Loss 0.950, Train_accy 54.18, Test_accy 43.68
+2026-02-16 14:41:37,040 [sema.py] => func Task 7, Epoch 10/20 => Loss 0.500, Train_accy 56.43, Test_accy 48.54
+2026-02-16 14:51:37,040 [sema.py] => func Task 7, Epoch 20/20 => Loss 0.200, Train_accy 58.93, Test_accy 53.93
+2026-02-16 14:56:37,040 [sema.py] => rd Task 7, Epoch 20/20 => Loss 0.500, Train_accy 58.93, Test_accy 53.93
+2026-02-16 14:57:07,040 [trainer.py] => No NME accuracy.
+2026-02-16 14:57:07,040 [trainer.py] => CNN: {'total': 53.93, '00-19': 53.93, 'old': 53.93, 'new': 53.93}
+2026-02-16 14:57:07,040 [trainer.py] => CNN top1 curve: [81.14, 73.33, 69.33, 64.9, 58.98, 58.15, 57.09, 53.93]
+2026-02-16 14:57:07,040 [trainer.py] => CNN top5 curve: [86.14, 78.33, 74.33, 69.9, 63.98, 63.15, 62.09, 58.93]
+
+2026-02-16 14:57:07,040 [trainer.py] => Average Accuracy (CNN): 64.60625 
+
+2026-02-16 16:06:07,040 [trainer.py] => All params: 87504716
+2026-02-16 16:06:07,040 [trainer.py] => Trainable params: 153800
+2026-02-16 16:06:07,045 [sema.py] => Learning on 160-180
+2026-02-16 16:06:07,045 [sema_block.py] => Adapter 11.1 added at block 11
+2026-02-16 16:21:07,045 [sema.py] => func Task 8, Epoch 1/20 => Loss 0.950, Train_accy 52.36, Test_accy 42.21
+2026-02-16 16:31:07,045 [sema.py] => func Task 8, Epoch 10/20 => Loss 0.500, Train_accy 54.61, Test_accy 46.90
+2026-02-16 16:41:07,045 [sema.py] => func Task 8, Epoch 20/20 => Loss 0.200, Train_accy 57.11, Test_accy 52.11
+2026-02-16 16:46:07,045 [sema.py] => rd Task 8, Epoch 20/20 => Loss 0.500, Train_accy 57.11, Test_accy 52.11
+2026-02-16 16:46:37,045 [trainer.py] => No NME accuracy.
+2026-02-16 16:46:37,045 [trainer.py] => CNN: {'total': 52.11, '00-19': 52.11, 'old': 52.11, 'new': 52.11}
+2026-02-16 16:46:37,045 [trainer.py] => CNN top1 curve: [81.14, 73.33, 69.33, 64.9, 58.98, 58.15, 57.09, 53.93, 52.11]
+2026-02-16 16:46:37,045 [trainer.py] => CNN top5 curve: [86.14, 78.33, 74.33, 69.9, 63.98, 63.15, 62.09, 58.93, 57.11]
+
+2026-02-16 16:46:37,045 [trainer.py] => Average Accuracy (CNN): 63.21777777777778 
+
+2026-02-16 18:02:37,045 [trainer.py] => All params: 87604716
+2026-02-16 18:02:37,045 [trainer.py] => Trainable params: 153800
+2026-02-16 18:02:37,050 [sema.py] => Learning on 180-200
+2026-02-16 18:02:37,050 [sema_block.py] => Adapter 11.1 added at block 11
+2026-02-16 18:17:37,050 [sema.py] => func Task 9, Epoch 1/20 => Loss 0.950, Train_accy 51.20, Test_accy 41.27
+2026-02-16 18:27:37,050 [sema.py] => func Task 9, Epoch 10/20 => Loss 0.500, Train_accy 53.45, Test_accy 45.86
+2026-02-16 18:37:37,050 [sema.py] => func Task 9, Epoch 20/20 => Loss 0.200, Train_accy 55.95, Test_accy 50.95
+2026-02-16 18:42:37,050 [sema.py] => rd Task 9, Epoch 20/20 => Loss 0.500, Train_accy 55.95, Test_accy 50.95
+2026-02-16 18:43:07,050 [trainer.py] => No NME accuracy.
+2026-02-16 18:43:07,050 [trainer.py] => CNN: {'total': 50.95, '00-19': 50.95, 'old': 50.95, 'new': 50.95}
+2026-02-16 18:43:07,050 [trainer.py] => CNN top1 curve: [81.14, 73.33, 69.33, 64.9, 58.98, 58.15, 57.09, 53.93, 52.11, 50.95]
+2026-02-16 18:43:07,050 [trainer.py] => CNN top5 curve: [86.14, 78.33, 74.33, 69.9, 63.98, 63.15, 62.09, 58.93, 57.11, 55.95]
+
+2026-02-16 18:43:07,050 [trainer.py] => Average Accuracy (CNN): 61.991 
+
