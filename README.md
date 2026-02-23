@@ -1,4 +1,4 @@
-﻿# SEMA-CL — Jittor 版本
+﻿# SEMA — Jittor 版本
 
 **SEMA**（Self-Expansion of Pre-trained Models with Mixture of Adapters for Continual Learning）的 **Jittor 框架完整迁移版**。
 
@@ -608,3 +608,4 @@ Get-Content logs\sema\imagenetr\20\20\reproduce_1993_pretrained_vit_b16_224_adap
 - 原始 PyTorch 实现：[SEMA-CL](https://github.com/girafffee/SEMA-CL)
 - Jittor 框架：[清华大学计算机图形学组](https://cg.cs.tsinghua.edu.cn/jittor/)
 - 预训练模型来源：[timm](https://github.com/huggingface/pytorch-image-models)
+
